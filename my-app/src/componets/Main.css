@@ -1,0 +1,66 @@
+body{
+    background-color: cadetblue;
+}
+
+.main{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    margin:  0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #808080;
+}
+
+.main h1{
+    font-size: 40px;
+}
+
+.form input{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+    border-color: #808080;
+    border-style: solid;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    border-style: hidden;
+    color: black;
+    font-weight: bold;
+    background-color: cadetblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+.listaTarefas{
+    
+
+ 
+}
+.listaTarefas li{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.listaTarefas li:hover{
+    background-color: antiquewhite;
+}
+.edit{
+    color: cadetblue;
+    
+}
+
+.close{
+    color: rgb(236, 140, 140);
+    margin-left: 15px;
+    margin-right: 30px;
+}
